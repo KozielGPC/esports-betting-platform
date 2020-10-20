@@ -9,8 +9,8 @@ button{
 }
 .bets-content{
     display: flex;
-    height: 70px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     flex-direction: column;
     align-items: center;
     justify-content: center;

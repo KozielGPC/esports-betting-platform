@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import GroupCards from './components/GroupCards';
 import BetCards from './components/BetCards';
+import NewsCard from './components/NewsCards';
 
 function App() {
   return (
@@ -34,6 +35,13 @@ function App() {
         </div>
       </div>
 
+      <div className="news">
+        <NewsCard title="camille ta op" description="foda mano" />
+        <NewsCard title="camille ta op" description="foda mano" />
+        <NewsCard title="camille ta op" description="foda mano" />
+        <NewsCard title="camille ta op" description="foda mano" />
+        <NewsCard title="camille ta op" description="foda mano" />
+      </div>
     </div>
   );
 }
