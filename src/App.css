@@ -44,3 +44,36 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.cards-content{
+  padding: 20px 30px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .left {
+  display: flex;
+}
+
+.nav .left nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav .left nav ul li{
+  list-style: none;
+  padding: 20px;
+  transition: 0.2s;
+  color: #dddddd;
+  font-weight: bold;
+}
+
+.nav .left nav ul li:hover{
+  box-shadow: lime inset 0 -3px 0 0;
+  color: rgb(255, 255, 255);
+}
+
+

@@ -12,6 +12,7 @@ export default function NewsCard(props) {
             <div className="description">
                 <strong>{props.title}</strong>
                 <p>{props.description}</p>
+                <span>#</span>
             </div>
         </div>
     );
