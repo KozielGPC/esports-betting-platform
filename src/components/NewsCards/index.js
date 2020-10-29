@@ -1,6 +1,8 @@
 import React from 'react';
 import camille from '../../assets/imgs/camille.jpg';
 
+import { FiStar } from 'react-icons/fi';
+
 import './styles.css';
 
 export default function NewsCard(props) {
@@ -12,7 +14,7 @@ export default function NewsCard(props) {
             <div className="description">
                 <strong>{props.title}</strong>
                 <p>{props.description}</p>
-                <span>#</span>
+                <span><FiStar size={18} /></span>
             </div>
         </div>
     );

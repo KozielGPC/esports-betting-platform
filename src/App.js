@@ -6,8 +6,6 @@ import NewsCard from './components/NewsCards';
 
 import { FiBell, FiArrowDown, FiArrowLeft, FiShare2 } from 'react-icons/fi';
 
-import ViImg from './assets/imgs/vi.jpg';
-
 function App() {
   return (
     <div className="App">
