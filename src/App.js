@@ -4,6 +4,10 @@ import GroupCards from './components/GroupCards';
 import BetCards from './components/BetCards';
 import NewsCard from './components/NewsCards';
 
+import { FiBell, FiArrowDown, FiArrowLeft, FiShare2 } from 'react-icons/fi';
+
+import ViImg from './assets/imgs/vi.jpg';
+
 function App() {
   return (
     <div className="App">
@@ -14,16 +18,16 @@ function App() {
           <nav>
             <ul>
               <li>
-                  BROWSE BETS
+                BROWSE BETS
               </li>
               <li>
-                  GROUPS
+                GROUPS
               </li>
               <li>
-                  JUDGE-IT
+                JUDGE-IT
               </li>
               <li>
-                  SHOP
+                SHOP
               </li>
             </ul>
           </nav>
@@ -31,12 +35,27 @@ function App() {
 
         <div className="right">
           <button>NEW BET</button>
-          <span>notificação</span>
+          <span><FiBell size={18} /></span>
           <span>foto perfil</span>
           <span>username</span>
-          <span>seta</span>
+          <span><FiArrowDown size={18} /></span>
         </div>
       </div>
+
+      <section className="banner">
+        <h1>
+          TSM vs. CLG NA LCS
+        </h1>
+        <p>North America League of Legends Championship Series ° Jun 16 - Oct 28, 2018</p>
+        <span>Jasmine Chan ° created 8w ago</span>
+
+        <button>View Bet</button>
+        <span> <FiShare2 size={18} /> </span>
+        <span> <FiArrowLeft size={18} /> </span>
+        <p>Backed by 800 people</p>
+      </section>
+
+
       <section className="cards-content">
         <div className="groups">
           <div className="header">

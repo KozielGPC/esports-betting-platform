@@ -45,9 +45,6 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.cards-content{
-  padding: 20px 30px;
-}
 
 .nav{
   display: flex;
@@ -77,3 +74,39 @@ body{
 }
 
 
+.App{
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+}
+
+.banner{
+  width: 100%;
+  height: 50%;
+  background-image: url('./assets/imgs/vi.jpg'); 
+  background-position: right;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner:after{
+  opacity: 0.5;
+}
+
+.right{
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+.right button{
+    background-color: limegreen;
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+}
